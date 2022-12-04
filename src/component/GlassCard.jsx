@@ -13,7 +13,7 @@ const GlassCard = (props) => {
       <div className="xl:w-1/3 w-full min-h-36 rounded-xl flex justify-center">
         <img className="h-full rounded-xl object-cover" alt="" src={image} />
       </div>
-      <div className="xl:w-2/3 text-center w-full xl:text-left pl-4 py-4 h-fit !items-center">
+      <div className="xl:w-2/3 text-center w-full xl:text-left xl:pl-4 pl-0 py-4 h-fit !items-center">
         <GradientText
           className="!xl:text-3xl !text-xl"
           text={title}
