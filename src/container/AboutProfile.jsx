@@ -10,7 +10,7 @@ const AboutProfile = () => {
       <GradientText className="my-8" text="About Me" />
       <GradientText
         className="xl:!text-3xl !text-xl"
-        text="Student of Informatics Engineering who is interested in learning new things"
+        text="Freshgraduate of Informatics Engineering who is interested in learning new things"
       />
       <GradientText
         className="xl:!text-3xl !text-xl"

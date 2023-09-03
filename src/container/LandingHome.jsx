@@ -23,6 +23,10 @@ function LandingHome() {
           text="LinkedIn"
           link="https://www.linkedin.com/in/vaia-sanu-ba7507225/"
         />
+        <WhiteButton
+          text="Resume"
+          link="https://drive.google.com/file/d/1ZMH1EBC5vY2reiuHmK31ok6ZOAaa7A6B/view?usp=sharing"
+        />
       </div>
     </div>
   );

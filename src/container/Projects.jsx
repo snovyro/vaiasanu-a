@@ -5,7 +5,7 @@ import { ProjectsDataAPI } from "../hooks/ProjectsDataAPI";
 
 const Projects = () => {
   const { DataExport } = ProjectsDataAPI();
-  console.log(DataExport.id);
+  console.log(DataExport);
   return (
     <div
       id="projects"
@@ -21,7 +21,6 @@ const Projects = () => {
                 id={item.id}
                 title={item.projectName}
                 description={item.projectDesc}
-                // description="lorem ipsum dolor sit amet, consectetur adipiscing elit."
                 image={item.projectImage}
                 link={item.projectLink}
               />

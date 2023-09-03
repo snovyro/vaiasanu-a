@@ -17,6 +17,11 @@ const NavbarHeader = () => {
             <AnchorLink href="#about">About</AnchorLink>
           </li>
           <li className="hover:scale-110 transition-all ease-in-out duration-150 cursor-pointer">
+            <AnchorLink offset={() => -50} href="#experience">
+              Experience
+            </AnchorLink>
+          </li>
+          <li className="hover:scale-110 transition-all ease-in-out duration-150 cursor-pointer">
             <AnchorLink offset={() => -50} href="#projects">
               Projects
             </AnchorLink>

@@ -6,6 +6,7 @@ import Projects from "./container/Projects";
 import Copyright from "./component/Copyright";
 
 import "./App.css";
+import WorkExperience from "./container/WorkExperience";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <NavbarHeader />
         <LandingHome />
         <AboutProfile />
+        <WorkExperience />
         <Projects />
         <Copyright />
       </div>
