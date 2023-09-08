@@ -21,7 +21,7 @@ function LandingHome() {
         <WhiteButton text="Mail" link="mailto:vaia.sanu@yahoo.com" />
         <WhiteButton
           text="LinkedIn"
-          link="https://www.linkedin.com/in/vaia-sanu-ba7507225/"
+          link="https://www.linkedin.com/in/vaia-sanu-aulia//"
         />
         <WhiteButton
           text="Resume"
