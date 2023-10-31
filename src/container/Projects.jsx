@@ -5,7 +5,9 @@ import { ProjectsDataAPI } from "../hooks/ProjectsDataAPI";
 
 const Projects = () => {
   const { DataExport } = ProjectsDataAPI();
-  console.log(DataExport);
+
+  const reversedDataExport = [...DataExport].reverse();
+
   return (
     <div
       id="projects"
@@ -14,7 +16,7 @@ const Projects = () => {
       <div className="xl:w-[45vw] w-[70vw]">
         <GradientText className="text-center" text="Projects" />
         <div className="flex flex-wrap justify-center mt-16 gap-8">
-          {DataExport.map((item) => {
+          {reversedDataExport.map((item) => {
             return (
               <GlassCard
                 key={item.id}
